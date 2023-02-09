@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/Bungee/build/
+/Bungee/build/classes/java/main/
+/Common/build/
+/Common/build/classes/java/main/
+/Spigot/build/
+/Spigot/build/classes/java/main/

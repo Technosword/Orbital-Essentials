@@ -1,0 +1,70 @@
+mysql:
+  host: 'localhost'
+  port: 3306
+  database: 'essentialsvc'
+  username: 'root'
+  password: ''
+
+homes:
+  default: 1
+  vip: 3
+  vip+: 5
+
+messages:
+  insufficient-permission: "&cInsufficient permission"
+  not-player: "&cOnly players can execute this command!"
+  invalid-arguments: "&cWrong command arguments"
+  player-not-found: "&cPlayer not found"
+  tp: "&eTeleporting to {player}"
+  tpa-sent: "&eTeleport request sent to &c{player}"
+  tpa-request: "&c{player} &ehas requested to teleport to you. Type &c/tpaccept &eto accept, else &c/tpdeny"
+  no-tpa-to-accept: "&cYou have no teleport incoming"
+  tpa-accept: "&eYou have accepted the tpa request of {player}" #it is sent to whoever accepted the tpa
+  tpa-accepted: "&e{player} accepted tpa" #it is sent to whoever requested the tpa
+  tp-deny: "&cTp denied"
+  tpa-cancelled: "&cTpa cancelled"
+  teleporting: "&eTeleporting in {seconds}"
+  spawn-set: "&eSpawn set correctly"
+  spawn-not-set: "&cSpawn is not set here"
+  spawn: "&eTeleporting to spawn"
+  cant-back: "&cYou can't go back"
+  back: "&eTeleported back"
+  max-homes: "&cYou have reached the homes limit"
+  no-home-name: "&cThere aren't homes with that name"
+  home-set: "&eHome set"
+  home-removed: "&eHome removed"
+  home-list: "&eHomes: [{homes}]"
+  home: "&eTeleported to home"
+  gamemode: "&eGamemode changed to {gamemode}"
+  god: "&eGod mode {status}" # status can be on or off
+  fly: "&eFlight {status}" # status can be on or off
+  cant-invsee: "&cYou can't open your inventory"
+  repair: "&eYour items are repaired"
+  helpop: "&aHelpop: &e{message}"
+  message-from: "&e{player-from} > {player-to} : {message}" #it is sent to whoever sent the /msg
+  message-to: "&e{player-from} > {player-to}: {message}" #it is sent to whoever received the /msg
+  nickname: "&eNickname set"
+
+commands-description:
+  tp: "&7 - &6/tp <player> &7- Teleport you to a player"
+  tpa: "&7 - &6/tpa <player> &7- Request a teleport to a player"
+  tpaccept: "&7 - &6/tpaccept &7- Accept incoming tpa request"
+  tpdeny: "&7 - &6/tpdeny &7- Reject incoming tpa request"
+  back: "&7 - &6/back &7- Teleport you to last location"
+  sethome: "&7 - &6/sethome <name> <player> &7- Create an home"
+  delhome: "&7 - &6/delhome <name> &7- Delete an home"
+  home: "&7 - &6/home [name] &7- Teleport to an home"
+  homelist: "&7 - &6/homes &7- Give the list of homes"
+  setspawn: "&7 - &6/setspawn &7- Create the spawnpoint"
+  spawn: "&7 - &6/spawn &7- Teleport to the spawnpoint"
+  helpop: "&7 - &6/helpop <message> &7- Ask help to staff"
+  message: "&7 - &6/msg <player> <message> &7- Write privately with another player"
+  reply: "&7 - &6/r <message> &7- Write privately with the last player you wrote with"
+  nickname: "&7 - &6/nickname <nick> &7- Change nickname"
+  repair: "&7 - &6/repair &7- Repair the entire inventory"
+  fly: "&7 - &6/fly [on/off] &7- Enable/Disable fly mode"
+  god: "&7 - &6/god [on/off] &7- Enable/Disable god mode"
+  enderchest: "&7 - &6/enderchest [player] &7- Open the enderchest"
+  workbench: "&7 - &6/workbench &7- Open the workbench"
+  invsee: "&7 - &6/invsee <player> &7- Open the player inventory"
+  gamemode: "&7 - &6/gamemode <gamemode> &7- Change the gamemode to the selected one"

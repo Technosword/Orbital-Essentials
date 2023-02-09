@@ -1,0 +1,5 @@
+name: EssentialsVCBungee
+version: 1.0.0
+author: TheDarkSword
+main: it.thedarksword.essentialsvc.EssentialsVC
+description: Just Bungee integration for EssentialsVC Plugin

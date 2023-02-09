@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bungee/Essentials.Bungee.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bungee/Essentials.Bungee.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Common/Essentials.Common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Common/Essentials.Common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spigot/Essentials.Spigot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spigot/Essentials.Spigot.main.iml" />
+    </modules>
+  </component>
+</project>

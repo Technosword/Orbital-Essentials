@@ -1,0 +1,41 @@
+name: EssentialsVC
+version: 1.0.0
+author: TheDarkSword
+main: it.thedarksword.essentialsvc.EssentialsVC
+description: Just an Essentials Plugin
+api-version: 1.16
+depend: [LuckPerms]
+softdepend:
+  - SimpleClans
+commands:
+  essentialsvc:
+  back:
+  delhome:
+  enderchest:
+    aliases: [ec]
+  fly:
+  gamemode:
+    aliases: [gm]
+  god:
+  helpop:
+  home:
+  homelist:
+    aliases: [homes]
+  invsee:
+  message:
+    aliases: [msg]
+  repair:
+  nickname:
+    aliases: [nick]
+  reply:
+    aliases: [r]
+  sethome:
+  setspawn:
+  spawn:
+  tpaccept:
+  tpa:
+  tp:
+  tpdeny:
+  workbench:
+    aliases: [crafting]
+

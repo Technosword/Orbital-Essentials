@@ -1,0 +1,5 @@
+rootProject.name = 'Essentials'
+include 'Bungee'
+include 'Common'
+include 'Spigot'
+
